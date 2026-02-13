@@ -1,9 +1,9 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 
 public class NPCDialogue : MonoBehaviour
 {
-    // Ä£±¸ÀÇ ÀÌ¸§°ú ´ë»ç¸¦ Inspector Ã¢¿¡¼­ ÀûÀ» ¼ö ÀÖ°Ô ¸¸µê
     public string npcName;
-    [TextArea] // ±Û »óÀÚ¸¦ Å©°Ô ¸¸µé¾îÁÖ´Â ¸¶¹ı
-    public string dialogue;
+    [TextArea]
+    public string[] dialogues; // ì—¬ëŸ¬ ì¤„ì„ ì €ì¥í•˜ê¸° ìœ„í•´ ë°°ì—´([])ë¡œ ë³€ê²½!
+    public bool isItem = false;
 }
